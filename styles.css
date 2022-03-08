@@ -1,13 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 body {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', 'sans-serif';
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+.dark-background {
+    background-color: rgb(75, 151, 126);
+}
+
+button, .bright-background {
+    background-color: rgb(114, 228, 190);
+}
+
+.hero-primary-color, button, .sign-up-final-title {
+    color: #F9FAF8;
+}
+
+.hero-secondary-color, a, .sign-up-final-text, .footer {
+    color: #E5E7EB
+}
+
+a, .sing-up-final-text {
+    font-size: 18px;
+}
+
 .top {
-    background-color: aquamarine;
-    padding: 10px 150px;
+    padding-top: 10px;
     padding-bottom: 100px;
+    display: flex;
 }
 
 .header {
@@ -17,9 +42,14 @@ body {
     margin-bottom: 50px;
 }
 
+.top-container {
+    width: 650px;
+    margin: 0 auto;
+    flex: 0 1 auto;
+}
+
 .logo {
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 24px;
 }
 
 .header-links {
@@ -30,7 +60,6 @@ body {
 .top-info-container {
     display: flex;
     justify-content: space-between;
-    height: 300px;
     gap: 20px;
 }
 
@@ -39,24 +68,33 @@ body {
 }
 
 .img-wrapper img {
-   max-height: 100%;
-   min-width: 0px;
-}
+   width: 100%;
+   height: 100%;
+} 
 
 .sign-up-block {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
     flex: 1 1 0;     
 }
 
 button {
-    margin-top: auto;
+    padding: 10px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.bottom button {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-left: auto;
 }
 
 .top-title {
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .middle {
@@ -74,26 +112,36 @@ button {
 .illustration-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
 }
 
-.card div {
-    width: 100px;
+.card {
+    width: 150px;
+    height: 150px;
 }
 
 .card img {
-    height: 100px;
-    width: 100px;
+    width: 100%;
+    height: 100%;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(114, 228, 190);
+}
+
+.quote-section {
+    padding: 50px 0;
+    background-color: rgb(216, 216, 216);
 }
 
 .quote-container {
-    padding: 40px 150px;
-    background-color: rgb(216, 216, 216);
+    margin: 0 auto;
+    width: 500px;
 }
 
 .quote {
     font-style: italic;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .author {
@@ -101,3 +149,30 @@ button {
     font-weight: 600;
     text-align: end;
 }
+
+.bottom {
+    padding-block: 100px;
+    padding-inline: 50px;
+}
+
+.sign-up-final {
+    margin: 0 auto;
+    width: 520px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+
+}
+
+.sign-up-final-title {
+    font-size: 24px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
