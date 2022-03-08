@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
     padding:0;
@@ -91,6 +91,7 @@ button {
     padding: 10px 30px;
     border: 2px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .bottom button {
@@ -107,7 +108,7 @@ button {
 
 .illustrations-title {
     font-size: 30px;
-    font-weight: 600px;
+    font-weight: bold;
     margin-bottom: 30px;
 }
 
@@ -132,19 +133,14 @@ button {
 }
 
 .quote-section {
-    padding: 50px 0;
+    padding: 150px 200px;
     background-color: rgb(216, 216, 216);
-}
-
-.quote-container {
-    margin: 0 auto;
-    width: 500px;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
 }
 
 .author {
@@ -161,7 +157,7 @@ button {
 .sign-up-final {
     margin: 0 auto;
     width: 620px;
-    padding: 20px 50px;
+    padding: 50px 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +168,7 @@ button {
 
 .sign-up-final-title {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .footer {
