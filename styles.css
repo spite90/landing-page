@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     padding:0;
@@ -10,11 +10,11 @@ body {
 }
 
 .dark-background {
-    background-color: rgb(75, 151, 126);
+    background-color: #1F2937
 }
 
 button, .bright-background {
-    background-color: rgb(114, 228, 190);
+    background-color: #3882F6
 }
 
 .hero-primary-color, button, .sign-up-final-title {
@@ -25,36 +25,39 @@ button, .bright-background {
     color: #E5E7EB
 }
 
+.logo {
+    font-size: 24px;
+}
+
 a, .sing-up-final-text {
     font-size: 18px;
 }
 
 .top {
-    padding-top: 10px;
-    padding-bottom: 100px;
-    display: flex;
+    padding: 0 150px;
+    padding-top: 20px;
+    padding-bottom: 150px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
-}
-
-.top-container {
-    width: 650px;
-    margin: 0 auto;
-    flex: 0 1 auto;
-}
-
-.logo {
-    font-size: 24px;
+    margin-bottom: 100px;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+}
+
+.top-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.top-container {
+    flex: 0 1 auto;
 }
 
 .top-info-container {
@@ -63,8 +66,12 @@ a, .sing-up-final-text {
     gap: 20px;
 }
 
+.top-info-container button {
+    margin-top: auto;
+}
+
 .img-wrapper {
-    flex: 1 1 0;
+    flex: 1.3 1 0;
 }
 
 .img-wrapper img {
@@ -81,7 +88,7 @@ a, .sing-up-final-text {
 }
 
 button {
-    padding: 10px;
+    padding: 10px 30px;
     border: 2px;
     border-radius: 10px;
 }
@@ -90,11 +97,6 @@ button {
     border-color: #E5E7EB;
     border-style: solid;
     margin-left: auto;
-}
-
-.top-title {
-    font-size: 48px;
-    font-weight: bolder;
 }
 
 .middle {
@@ -126,7 +128,7 @@ button {
     border: 5px;
     border-radius: 10px;
     border-style: solid;
-    border-color: rgb(114, 228, 190);
+    border-color: #3882F6;
 }
 
 .quote-section {
@@ -141,7 +143,8 @@ button {
 
 .quote {
     font-style: italic;
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: light;
 }
 
 .author {
@@ -157,7 +160,7 @@ button {
 
 .sign-up-final {
     margin: 0 auto;
-    width: 520px;
+    width: 620px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
