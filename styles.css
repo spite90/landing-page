@@ -34,9 +34,10 @@ a, .sing-up-final-text {
 }
 
 .top {
-    padding: 0 150px;
     padding-top: 20px;
     padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -57,11 +58,13 @@ a, .sing-up-final-text {
 }
 
 .top-container {
+    width: 900px;
     flex: 0 1 auto;
 }
 
 .top-info-container {
     display: flex;
+    height: 300px;
     justify-content: space-between;
     gap: 20px;
 }
@@ -71,6 +74,7 @@ a, .sing-up-final-text {
 }
 
 .img-wrapper {
+    max-width: 500px;
     flex: 1.3 1 0;
 }
 
@@ -114,6 +118,7 @@ button {
 
 .illustration-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
